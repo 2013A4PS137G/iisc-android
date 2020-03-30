@@ -1,0 +1,295 @@
+
+{
+	"buildFiles" : [ "D:/IISc/Asthma/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"asthma-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "asthma-lib",
+			"buildCommand" : "C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a --target asthma-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/asthma-predict.cpp",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/compute-mfcc-feats.cpp",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/feat-util.cpp",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/base/io-funcs.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/base/kaldi-error.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/base/kaldi-math.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/base/kaldi-utils.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/base/timer.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/feat/feature-functions.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/feat/feature-mfcc.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/feat/feature-window.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/feat/mel-computations.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/feat/resample.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/feat/wave-reader.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/compressed-matrix.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/kaldi-matrix.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/kaldi-vector.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/matrix-functions.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/optimization.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/packed-matrix.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/qr.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/sp-matrix.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/sparse-matrix.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/srfft.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/matrix/tp-matrix.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/transform/cmvn.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/util/kaldi-holder.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/util/kaldi-io.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/util/kaldi-semaphore.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/util/kaldi-table.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/util/parse-options.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/util/simple-io-funcs.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/util/text-utils.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/ivector/voice-activity-detection.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/kaldi/ivectorbin/compute-vad.cc",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/libsvm/svm-predict.c",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DHAVE_CLAPACK -Dasthma_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\include\\kaldi -I..\\..\\..\\..\\include\\openfst -I..\\..\\..\\..\\include\\libsvm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -stdlib=libc++ -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/IISc/Asthma/app/src/main/cpp/libsvm/svm.cpp",
+					"workingDirectory" : "D:/IISc/Asthma/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/IISc/Asthma/app/build/intermediates/cmake/release/obj/armeabi-v7a/libasthma-lib.so",
+			"toolchain" : "750635953"
+		},
+		"blas-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "blas",
+			"buildType" : "release",
+			"output" : "D:/IISc/Asthma/app/src/main/cpp/libs/armeabi-v7a/libblas.a",
+			"toolchain" : "750635953"
+		},
+		"clapack-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "clapack",
+			"buildType" : "release",
+			"output" : "D:/IISc/Asthma/app/src/main/cpp/libs/armeabi-v7a/libclapack.a",
+			"toolchain" : "750635953"
+		},
+		"f2c-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "f2c",
+			"buildType" : "release",
+			"output" : "D:/IISc/Asthma/app/src/main/cpp/libs/armeabi-v7a/libf2c.a",
+			"toolchain" : "750635953"
+		},
+		"lapack-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lapack",
+			"buildType" : "release",
+			"output" : "D:/IISc/Asthma/app/src/main/cpp/libs/armeabi-v7a/liblapack.a",
+			"toolchain" : "750635953"
+		},
+		"openblas-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "openblas",
+			"buildType" : "release",
+			"output" : "D:/IISc/Asthma/app/src/main/cpp/libs/armeabi-v7a/libopenblas.a",
+			"toolchain" : "750635953"
+		}
+	},
+	"toolchains" : 
+	{
+		"750635953" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Lenovo/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

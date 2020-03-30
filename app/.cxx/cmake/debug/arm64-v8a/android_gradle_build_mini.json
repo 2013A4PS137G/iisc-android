@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "D:\\IISc\\Asthma\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\IISc\\Asthma\\app\\.cxx\\cmake\\debug\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "blas-Debug-arm64-v8a": {
+      "artifactName": "blas",
+      "abi": "arm64-v8a",
+      "output": "D:\\IISc\\Asthma\\app\\src\\main\\cpp\\libs\\arm64-v8a\\libblas.a"
+    },
+    "f2c-Debug-arm64-v8a": {
+      "artifactName": "f2c",
+      "abi": "arm64-v8a",
+      "output": "D:\\IISc\\Asthma\\app\\src\\main\\cpp\\libs\\arm64-v8a\\libf2c.a"
+    },
+    "asthma-lib-Debug-arm64-v8a": {
+      "artifactName": "asthma-lib",
+      "buildCommand": "C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\IISc\\Asthma\\app\\.cxx\\cmake\\debug\\arm64-v8a --target asthma-lib",
+      "abi": "arm64-v8a",
+      "output": "D:\\IISc\\Asthma\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libasthma-lib.so"
+    },
+    "openblas-Debug-arm64-v8a": {
+      "artifactName": "openblas",
+      "abi": "arm64-v8a",
+      "output": "D:\\IISc\\Asthma\\app\\src\\main\\cpp\\libs\\arm64-v8a\\libopenblas.a"
+    },
+    "clapack-Debug-arm64-v8a": {
+      "artifactName": "clapack",
+      "abi": "arm64-v8a",
+      "output": "D:\\IISc\\Asthma\\app\\src\\main\\cpp\\libs\\arm64-v8a\\libclapack.a"
+    },
+    "lapack-Debug-arm64-v8a": {
+      "artifactName": "lapack",
+      "abi": "arm64-v8a",
+      "output": "D:\\IISc\\Asthma\\app\\src\\main\\cpp\\libs\\arm64-v8a\\liblapack.a"
+    }
+  }
+}

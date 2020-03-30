@@ -1,0 +1,75 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\IISc\\Asthma",
+      "sdkFolder": "C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [
+        "armeabi-v7a",
+        "arm64-v8a"
+      ],
+      "intermediatesFolder": "D:\\IISc\\Asthma\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\IISc\\Asthma\\app",
+      "makeFile": "D:\\IISc\\Asthma\\app\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\IISc\\Asthma\\.cxx",
+      "cxxFolder": "D:\\IISc\\Asthma\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669",
+      "ndkVersion": "21.0.6113669",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++11 -stdlib\u003dlibc++ -frtti -fexceptions "
+    ],
+    "variantName": "release",
+    "soFolder": "D:\\IISc\\Asthma\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "D:\\IISc\\Asthma\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "D:\\IISc\\Asthma\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a",
+  "jsonFile": "D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\IISc\\Asthma\\app\\.cxx\\cxx\\release\\armeabi-v7a",
+  "objFolder": "D:\\IISc\\Asthma\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a",
+  "buildCommandFile": "D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\IISc\\Asthma\\app\\.cxx\\cxx\\release\\armeabi-v7a\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\IISc\\Asthma\\app\\.cxx\\cxx\\release\\armeabi-v7a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\IISc\\Asthma\\app\\.cxx\\cxx\\release\\armeabi-v7a\\build_generation_state.json",
+    "cacheKeyFile": "D:\\IISc\\Asthma\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\IISc\\Asthma\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\IISc\\Asthma\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\IISc\\Asthma\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a\\compile_commands.json"
+}

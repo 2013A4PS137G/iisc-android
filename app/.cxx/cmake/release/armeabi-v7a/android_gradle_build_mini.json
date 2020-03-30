@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "D:\\IISc\\Asthma\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "openblas-Release-armeabi-v7a": {
+      "artifactName": "openblas",
+      "abi": "armeabi-v7a",
+      "output": "D:\\IISc\\Asthma\\app\\src\\main\\cpp\\libs\\armeabi-v7a\\libopenblas.a"
+    },
+    "blas-Release-armeabi-v7a": {
+      "artifactName": "blas",
+      "abi": "armeabi-v7a",
+      "output": "D:\\IISc\\Asthma\\app\\src\\main\\cpp\\libs\\armeabi-v7a\\libblas.a"
+    },
+    "f2c-Release-armeabi-v7a": {
+      "artifactName": "f2c",
+      "abi": "armeabi-v7a",
+      "output": "D:\\IISc\\Asthma\\app\\src\\main\\cpp\\libs\\armeabi-v7a\\libf2c.a"
+    },
+    "clapack-Release-armeabi-v7a": {
+      "artifactName": "clapack",
+      "abi": "armeabi-v7a",
+      "output": "D:\\IISc\\Asthma\\app\\src\\main\\cpp\\libs\\armeabi-v7a\\libclapack.a"
+    },
+    "lapack-Release-armeabi-v7a": {
+      "artifactName": "lapack",
+      "abi": "armeabi-v7a",
+      "output": "D:\\IISc\\Asthma\\app\\src\\main\\cpp\\libs\\armeabi-v7a\\liblapack.a"
+    },
+    "asthma-lib-Release-armeabi-v7a": {
+      "artifactName": "asthma-lib",
+      "buildCommand": "C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\IISc\\Asthma\\app\\.cxx\\cmake\\release\\armeabi-v7a --target asthma-lib",
+      "abi": "armeabi-v7a",
+      "output": "D:\\IISc\\Asthma\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libasthma-lib.so"
+    }
+  }
+}
